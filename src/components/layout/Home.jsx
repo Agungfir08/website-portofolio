@@ -4,19 +4,25 @@ export default function Home() {
     return (
         <div className="mx-auto max-w-screen-xl px-4 lg:px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12 min-h-dvh items-center">
-                <div className="md:justify-self-end justify-self-center">
+                <div
+                    className="md:justify-self-end justify-self-center"
+                    data-aos="zoom-in">
                     <img
-                        className="rounded-full w-80 h-80 shadow-xl"
+                        className="rounded-full shadow-xl"
                         src={agungFoto}
-                        loading="lazy"
+                        width="320"
+                        height="320"
+                        alt="Agung's Photo"
                     />
                 </div>
                 <div className="md:justify-self-start">
                     <div className="text-center space-y-6 md:text-left">
-                        <h1 className="text-6xl md:text-7xl font-workSans font-bold">
+                        <h1
+                            className="text-6xl md:text-7xl font-workSans font-bold"
+                            data-aos="fade-up">
                             Hello!!
                         </h1>
-                        <div>
+                        <div data-aos="fade-up" data-aos-delay="100">
                             <h2 className="text-xl md:text-2xl font-bold mb-2">
                                 About Me
                             </h2>

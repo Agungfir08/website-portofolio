@@ -8,8 +8,7 @@ export default function Laptop({ image }) {
                     <img
                         src={image}
                         className="h-[156px] lg:h-[200px] w-full rounded-lg"
-                        alt=""
-                        loading="lazy"
+                        alt="Project Image"
                     />
                 </div>
             </div>

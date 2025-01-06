@@ -12,8 +12,7 @@ export default function Phone({ image }) {
                     <img
                         src={image}
                         className="w-[136px] h-[286px] lg:w-[148px] lg:h-[302px]"
-                        alt=""
-                        loading="lazy"
+                        alt="Project Image"
                     />
                 </div>
             </div>

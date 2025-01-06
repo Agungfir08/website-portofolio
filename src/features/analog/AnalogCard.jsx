@@ -7,12 +7,14 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function AnalogCard({ img, scrollPosition }) {
     return (
-        <div key={img} data-aos="zoom-in">
+        <div data-aos="zoom-in">
             <LazyLoadImage
                 className="rounded-lg"
                 src={img}
                 effect="blur"
                 scrollPosition={scrollPosition}
+                width={img.width}
+                height={img.height}
             />
         </div>
     );
