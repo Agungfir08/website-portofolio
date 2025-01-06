@@ -1,5 +1,4 @@
 export default function ResumeCard({ title, items }) {
-    console.log(items.description);
     return (
         <div className="border-t border-gray-300 pt-6 grid grid-cols-1 md:grid-cols-2">
             <h2 className="text-xl md:text-2xl font-semibold font-workSans">

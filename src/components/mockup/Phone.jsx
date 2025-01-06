@@ -13,6 +13,7 @@ export default function Phone({ image }) {
                         src={image}
                         className="w-[136px] h-[286px] lg:w-[148px] lg:h-[302px]"
                         alt=""
+                        loading="lazy"
                     />
                 </div>
             </div>

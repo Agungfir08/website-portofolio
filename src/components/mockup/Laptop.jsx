@@ -9,6 +9,7 @@ export default function Laptop({ image }) {
                         src={image}
                         className="h-[156px] lg:h-[200px] w-full rounded-lg"
                         alt=""
+                        loading="lazy"
                     />
                 </div>
             </div>

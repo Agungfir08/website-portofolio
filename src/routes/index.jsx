@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { createBrowserRouter } from 'react-router-dom';
-import RootLayout from '../components/layout/RootLayout';
-import Home from '../components/layout/Home';
-import Resume from '../features/resume/Resume';
-import Analog from '../features/analog/Analog';
-import Project from '../features/project/Project';
+const RootLayout = lazy(() => import('../components/layout/RootLayout'));
+const Home = lazy(() => import('../components/layout/Home'));
+const Resume = lazy(() => import('../features/resume/Resume'));
+const Project = lazy(() => import('../features/project/Project'));
+const Analog = lazy(() => import('../features/analog/Analog'));
 
 export const router = createBrowserRouter([
     {

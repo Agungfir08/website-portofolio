@@ -1,5 +1,5 @@
 import React from 'react';
-import agungFoto from '../../assets/images/AgungFoto.jpg';
+import agungFoto from '../../assets/images/AgungFoto.webp';
 export default function Home() {
     return (
         <div className="mx-auto max-w-screen-xl px-4 lg:px-6">
