@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-LightOblique.otf') format('opentype');
+    font-weight: 300;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-Book.otf') format('opentype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-BookOblique.otf') format('opentype');
+    font-weight: 400; /* Regular */
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-Roman.otf') format('opentype');
+    font-weight: 500; /* Roman/Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-Oblique.otf') format('opentype');
+    font-weight: 500; /* Roman/Medium */
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-Medium.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-MediumOblique.otf') format('opentype');
+    font-weight: 600; /* Medium */
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-Heavy.otf') format('opentype');
+    font-weight: 800; /* Heavy */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-HeavyOblique.otf') format('opentype');
+    font-weight: 800; /* Heavy */
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-Black.otf') format('opentype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../AvenirLTStd-BlackOblique.otf') format('opentype');
+    font-weight: 900; /* Black */
+    font-style: oblique;
+}
