@@ -1,4 +1,4 @@
-import { ANALOG } from '../../constants/analog';
+import { ANALOG } from '../../constants/Analog';
 import AnalogCard from './AnalogCard';
 export default function Analog() {
     return (
