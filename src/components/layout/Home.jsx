@@ -5,10 +5,9 @@ export default function Home() {
         <div className="mx-auto max-w-screen-xl px-4 lg:px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12 min-h-dvh items-center">
                 <div
-                    className="md:justify-self-end justify-self-center"
+                    className="md:justify-self-end justify-self-center aspect-square rounded-full overflow-hidden shadow-xl"
                     data-aos="zoom-in">
                     <img
-                        className="rounded-full shadow-xl"
                         src={agungFoto}
                         width="320"
                         height="320"

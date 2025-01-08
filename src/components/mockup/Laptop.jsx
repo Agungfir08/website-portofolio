@@ -1,17 +1,15 @@
 import React from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export default function Laptop({ image }) {
     return (
         <div className="w-full">
             <div className="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[300px] lg:h-[220px] lg:max-w-[380px]">
                 <div className="rounded-lg overflow-hidden h-[156px] lg:h-[200px] bg-white">
-                    <LazyLoadImage
+                    <img
                         src={image}
                         className="h-[156px] lg:h-[200px] w-full rounded-lg"
                         alt="Project Image"
-                        effect="blur"
+                        loading="lazy"
                     />
                 </div>
             </div>
