@@ -13,8 +13,6 @@ export default function Home() {
                         width="320"
                         height="320"
                         alt="Agung's Photo"
-                        loading="lazy"
-                        decoding="async"
                     />
                 </div>
                 <div className="md:justify-self-start">

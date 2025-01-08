@@ -1,4 +1,6 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export default function Phone({ image }) {
     return (
@@ -9,10 +11,11 @@ export default function Phone({ image }) {
                 <div className="h-[22px] w-[1.5px] lg:h-[28px] lg:w-[2px] bg-gray-800 absolute -start-[8px] top-[68px] lg:-start-[10px] lg:top-[108px] rounded-s-lg"></div>
                 <div className="h-[28px] w-[1.5px] lg:h-[36px] lg:w-[2px] bg-gray-800 absolute -end-[8px] top-[56px] lg:-end-[10px] lg:top-[90px] rounded-e-lg"></div>
                 <div className="rounded-[1rem] lg:rounded-[1.5rem] overflow-hidden w-[136px] h-[286px] lg:w-[148px] lg:h-[302px] bg-white">
-                    <img
+                    <LazyLoadImage
                         src={image}
                         className="w-[136px] h-[286px] lg:w-[148px] lg:h-[302px]"
                         alt="Project Image"
+                        effect="blur"
                     />
                 </div>
             </div>
