@@ -18,7 +18,7 @@ export default function ProjectCard({ title, description, image }) {
                 {Array.isArray(image) ? (
                     image.map((img) => <Phone key={img} image={img} />)
                 ) : (
-                    <Laptop key={image} image={image} />
+                    <Laptop image={image} />
                 )}
             </div>
         </div>

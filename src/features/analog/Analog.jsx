@@ -1,5 +1,7 @@
+import { lazy } from 'react';
 import { ANALOG } from '../../constants/Analog';
-import AnalogCard from './AnalogCard';
+const AnalogCard = lazy(() => import('./AnalogCard'));
+
 export default function Analog() {
     return (
         <div className="px-4 lg:px-6">
@@ -14,7 +16,7 @@ export default function Analog() {
                         <strong>Old but Gold.</strong>
                     </p>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 min-h-dvh">
                     {ANALOG.map((img) => (
                         <AnalogCard key={img} img={img} />
                     ))}

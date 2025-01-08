@@ -1,23 +1,16 @@
 import React from 'react';
-import {
-    LazyLoadImage,
-    trackWindowScroll,
-} from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-function AnalogCard({ img, scrollPosition }) {
+export default function AnalogCard({ img }) {
     return (
-        <div data-aos="zoom-in">
+        <div className="aspect-square" data-aos="zoom-in">
             <LazyLoadImage
-                className="rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={img}
+                alt="analog"
                 effect="blur"
-                scrollPosition={scrollPosition}
-                width={img.width}
-                height={img.height}
             />
         </div>
     );
 }
-
-export default trackWindowScroll(AnalogCard);
