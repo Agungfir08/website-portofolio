@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './routes';
+import { Analytics } from '@vercel/analytics/react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 export default function App() {
@@ -9,5 +10,10 @@ export default function App() {
             duration: 650,
         });
     }, []);
-    return <RouterProvider router={router} />;
+    return (
+        <>
+            <RouterProvider router={router} />
+            <Analytics />
+        </>
+    );
 }
